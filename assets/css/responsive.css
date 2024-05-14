@@ -1,0 +1,72 @@
+
+@media (max-width: 600px) {
+    #content .member-list {
+        flex-wrap: wrap;
+    }
+
+    #content .member-item {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .places-list {
+        flex-wrap: wrap;
+    }
+
+    .places-list .place-item {
+        width: 100%;
+    }
+
+    .place-img {
+        height: auto;
+    }
+
+    .contact-detail {
+        flex-wrap: wrap;
+    }
+
+    .contact-detail .text-detail,
+    .contact-detail .form-contact {
+        width: 100%;
+    }
+
+    .form-contact .row-1 {
+        flex-wrap: wrap;
+    }
+
+    .form-contact .row-1 .form-group {
+        width: 100%;
+    }
+
+    .row-1 .form-group input {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 740px) {
+    #nav>li {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: inline-block;
+        float: right;
+        padding: 0 21px;
+    }
+
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+        color: black;
+    }
+    #header .mobile-menu-btn:hover i{
+        color: #000;
+    }
+}
